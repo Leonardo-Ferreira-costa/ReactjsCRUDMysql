@@ -8,8 +8,9 @@
   ],
   "devDependencies": {},
   "scripts": {
-	  "start": "yarn --cwd packages/frontend start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"start": "yarn --cwd packages/frontend start",
+	"next": "yarn --cwd packages/backend dev",
+    "dev": "npm-run-all --parallel start next"
   },
   "author": "",
   "license": "ISC"
