@@ -11,8 +11,8 @@
 	  "npm-run-all": "^4.1.5"
   },
   "scripts": {
-	"start": "yarn --cwd packages/frontend start",
-	"next": "yarn --cwd packages/backend dev",
+	"start": "yarn --cwd apps/frontend start",
+	"next": "yarn --cwd apps/backend dev",
     "dev": "npm-run-all --parallel start next"
   },
   "author": "",
