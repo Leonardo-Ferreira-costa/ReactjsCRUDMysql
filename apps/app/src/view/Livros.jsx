@@ -36,7 +36,7 @@ const Livros = () =>{
             
                 {livros.map((livro) => (
                     <div className="livro" key={livro.id}>
-                        {livro.img && <img src={livro.img} alt="" />}
+                        {livro.img && <img src={`./livros/${livro.img}`} alt="" />}
                         <h2>{livro.nome}</h2>
                         <p>{livro.descricao}</p>
                         <span>{livro.preco}</span>
