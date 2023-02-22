@@ -12,7 +12,7 @@
   },
   "scripts": {
 	"start": "yarn --cwd apps/app start",
-	"next": "yarn --cwd apps/backend dev",
+	"next": "yarn --cwd apps/backend start",
     "dev": "npm-run-all --parallel start next"
   },
   "author": "",
